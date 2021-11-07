@@ -1,0 +1,33 @@
+@font-face {
+  font-family: '8bit';
+  src: url(/fonts/8bitfont.ttf);
+}
+
+body {
+  background-color: #e2f3e4;
+  font-family: '8bit', sans-serif;
+}
+
+#app {
+  border: 5px dashed #332c50;
+  max-width: 400px;
+  height: 88vh;
+  margin: 5vh auto;
+}
+
+header {
+  font-size: 40px;
+  height: 10vh;
+  line-height: 10vh;
+  text-align: center;
+  border-bottom: 5px dashed #332c50;
+}
+
+main {
+  height: 68vh;
+}
+
+footer {
+  border-top: 5px dashed #332c50;
+  height: 10vh;
+}
